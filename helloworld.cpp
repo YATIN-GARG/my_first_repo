@@ -1,8 +1,11 @@
 #include<iostream>
 using namespace std;
+#define LENGTH 20
 
 int main()
 {
-	cout << "Hello Sanskar";
+	char name[LENGTH];
+	gets(name);
+	cout << "Hello " <<  name << "!\n";
 	return 0;
 }
